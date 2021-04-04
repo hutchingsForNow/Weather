@@ -141,3 +141,30 @@ div:empty {
     width: 95%;
     margin-left: 0;
 }
+
+
+.forecast-unit {
+    border: 2px solid #d5e4ff;
+    border-radius: 5px;
+    background-color: #ffffffe0;
+    padding: 10px;
+    color: #464646;
+    margin: 5% 0px;
+}
+
+.day {
+    border: 2px solid #d5e4ff;
+    border-radius: 5px;
+    background-color: #ffffffe0;
+    color: #464646;
+    margin: 0px auto auto;
+    padding: 2%;
+    width: 100%;
+}
+#forecastResults {
+    display: block;
+}
+
+.forecast-unit img {
+    width: 30%;
+}
