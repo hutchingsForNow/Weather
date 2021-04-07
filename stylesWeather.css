@@ -76,8 +76,12 @@ input[type=text] {
 }
 
 /* hides empty divs for weather and forecast results */
-div:empty {
+#weatherResults:empty {
     display: none;
+}
+
+#forecastResults:empty {
+    display:none;
 }
 
 /* One day weather results     check shadow */
@@ -119,7 +123,8 @@ div:empty {
     margin: auto;
     padding: 15px 15px 15px 15px;
     width: 80%;
-    justify-content: left;
+    justify-content: center;
+    text-align: center;
     max-width: 500px;
 
 }
@@ -153,13 +158,7 @@ div:empty {
 }
 
 .day {
-    border: 2px solid #d5e4ff;
-    border-radius: 5px;
-    background-color: #ffffffe0;
-    color: #464646;
-    margin: 0px auto auto;
-    padding: 2%;
-    width: 100%;
+   padding-top: 20px;
 }
 #forecastResults {
     display: block;
